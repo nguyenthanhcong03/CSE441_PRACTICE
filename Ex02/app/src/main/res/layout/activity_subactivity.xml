@@ -12,10 +12,10 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Chào lớp 63KTPM2"
         android:gravity="center"
-        android:textSize="18sp"
-        android:textColor="@android:color/holo_green_dark"/>
+        android:text="Xin chào lớp 63KTPM2"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnok"
