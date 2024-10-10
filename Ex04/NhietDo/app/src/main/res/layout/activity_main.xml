@@ -15,7 +15,7 @@
         android:text="Fahrenheit" />
 
     <EditText
-        android:id="@+id/txtFar"
+        android:id="@+id/edtC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -29,7 +29,7 @@
         android:text="Celsius" />
 
     <EditText
-        android:id="@+id/txtCel"
+        android:id="@+id/edtF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -42,14 +42,14 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnFar"
+            android:id="@+id/btnfc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Convert to Celsius" />
 
         <Button
-            android:id="@+id/btnCel"
+            android:id="@+id/btncf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -57,9 +57,9 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnClear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
-    
+        android:text="Clear" />
+
 </LinearLayout>
