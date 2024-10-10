@@ -51,7 +51,7 @@
             android:text="Chiều cao:" />
 
         <EditText
-            android:id="@+id/editchieucao"
+            android:id="@+id/edtchieucao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
