@@ -1,5 +1,6 @@
 package com.example.ex06;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,6 +11,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -70,11 +72,19 @@ public class MainActivity extends AppCompatActivity {
 
                 String boSung = edtBoSung.getText().toString();
                 String tongHop = hoTen + "\n"+CMND+"\n"+bangCap+"\n"+soThich+"\n";
-                tongHop += "------------THONG TIN BO SUNG------------\n"
+                tongHop += "------------THONG TIN BO SUNG------------\n";
                 tongHop +=boSung+"\n";
                 tongHop += "-----------------------------------------";
-
-
+                AlertDialog. Builder mydialog = new AlertDialog. Builder( MainActivity.this);
+                mydialog.setTitle ("THÔNG TIN CÁ NHÂN");
+                mydialog.setMessage(tongHop);
+                mydialog.setPositiveButton( "ĐÓNG", new DialogInterface. OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.cancel();
+                    }
+                });
+                mydialog.create().show();
             }
         });
     }
