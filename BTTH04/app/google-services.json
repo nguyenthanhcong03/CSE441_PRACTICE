@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "127315714584",
+    "firebase_url": "https://studentmanagement-f1426-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "studentmanagement-f1426",
+    "storage_bucket": "studentmanagement-f1426.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127315714584:android:4604907ab8ab94fbeb196d",
+        "android_client_info": {
+          "package_name": "com.example.btth04"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ9gLm-u9Bbg2XlwvVMhqsZCqXD63Vk68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
