@@ -32,7 +32,10 @@ android {
 }
 
 dependencies {
-
+    //Lombok
+    compileOnly("org.projectlombok:lombok:1.18.24")
+    annotationProcessor("org.projectlombok:lombok:1.18.24")
+    //Lombok
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
