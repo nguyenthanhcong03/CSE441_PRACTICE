@@ -48,7 +48,7 @@
             android:text="Hour" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/edthour"
             android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -64,7 +64,7 @@
             android:text="Minute" />
 
         <EditText
-            android:id="@+id/editTextText3"
+            android:id="@+id/edtmi"
             android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -74,12 +74,13 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add Work" />
 
     <ListView
+        android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
