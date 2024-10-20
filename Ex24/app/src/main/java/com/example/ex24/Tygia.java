@@ -1,3 +1,5 @@
+package com.example.ex24;
+
 import android.graphics.Bitmap;
 
 public class Tygia {
