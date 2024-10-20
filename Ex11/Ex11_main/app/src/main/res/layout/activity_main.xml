@@ -19,7 +19,7 @@
         android:text="Nhập link website" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/edtlink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,7 +27,7 @@
         android:text="" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnopen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SHOW WEB PAGE" />
