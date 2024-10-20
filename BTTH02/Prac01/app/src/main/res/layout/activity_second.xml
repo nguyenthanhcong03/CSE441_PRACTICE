@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter your infomation"
-        android:textColor="@color/primary"
+        android:textColor="#6200EE"
         android:textStyle="bold"
         android:textSize="30sp"
         android:layout_marginTop="150sp"
