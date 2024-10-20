@@ -15,7 +15,7 @@
         android:backgroundTint="#22E7D5"
         android:text="QUẢN LÝ SINH VIÊN"
         android:textAlignment="center"
-        android:textColor="#BA0606"
+        android:textColor="#C72323"
         android:textSize="20sp"
         android:textStyle="bold" />
 
