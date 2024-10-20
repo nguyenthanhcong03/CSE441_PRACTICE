@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.BTTH03" parent="Base.Theme.BTTH03" />
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item> <!-- Đặt màu chữ cho ActionBar -->
+    </style>
 </resources>
